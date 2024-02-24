@@ -9,9 +9,9 @@
 // [17, 17, 3, 17, 17, 17, 17] ==> 3
 
 function stray(numbers) {
-    return numbers.find((item)=>{
-      if(numbers.indexOf(item) === numbers.lastIndexOf(item)){
-        return item
-      }
-    })
+  return numbers.find((item)=>
+    numbers.indexOf(item) === numbers.lastIndexOf(item)
+      
+    
+  )
 }
